@@ -1,0 +1,34 @@
+{
+  "name": "codeceptjs-mailslurp-helper",
+  "version": "0.0.1",
+  "description": "MailSlurp helper provides access to randomly generated email address inboxes and retrieve emails from these inboxes via CodeceptJS.",
+  "scripts": {
+    "test": "codeceptjs run --steps",
+    "defs": "codeceptjs def"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwerner/codeceptjs-mailslurp-helper.git"
+  },
+  "author": "Wolfgang Werner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wwerner/codeceptjs-mailslurp-helper/issues"
+  },
+  "homepage": "https://github.com/wwerner/codeceptjs-mailslurp-helper#readme",
+  "devDependencies": {
+    "@types/node": "^10.5.2",
+    "codeceptjs": "^1.3.2",
+    "eslint": "^5.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-codeceptjs": "^0.4.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "webdriverio": "^4.13.1"
+  },
+  "dependencies": {
+    "mailslurp-client": "^0.1.1514850454"
+  }
+}

@@ -1,0 +1,7 @@
+*.swp
+*.iml
+.idea
+log
+.DS_Store
+node_modules
+output/

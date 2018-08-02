@@ -1,0 +1,9 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "codeceptjs"
+    ],
+    "env": {
+        "codeceptjs/codeceptjs": true
+    }
+}
