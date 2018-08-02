@@ -16,9 +16,9 @@ This helper should be configured in codecept.json
 
 Example:
 
-```json
+```javascript
 {
-  "helpers": {
+  helpers: {
     MailSlurpHelper: {
       require: './helpers/MailSlurp.js',
       apiKey: process.env.MAILSLURP_API_KEY || '<my actual API key>' // MailSlurp API key from https://www.mailslurp.com/login
