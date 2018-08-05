@@ -1,3 +1,5 @@
+# WIP, very much.
+
 # CodeceptJS MailSlurp Email Helper
 
 MailSlurp helper provides access to randomly generated email address inboxes and retrieve emails from these inboxes.
